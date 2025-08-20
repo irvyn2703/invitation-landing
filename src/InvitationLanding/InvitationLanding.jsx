@@ -71,7 +71,7 @@ export default function InvitationLanding() {
               <div className="mt-4 space-y-4 text-gray-700 text-center">
                 <div>
                   <p className="font-bold">MIS PAPÁS</p>
-                  <p className="ml-2">Manuel Cárdenas & Isabel Cabrera</p>
+                  <p className="ml-2">Isabel Cabrera & Manuel Cárdenas</p>
                 </div>
 
                 <div>
