@@ -37,7 +37,7 @@ export default function InvitationLanding() {
             animate={{ opacity: 1 }}
             transition={{ type: "spring", duration: 2 }}
             className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 text-center bg-cover bg-center relative"
-            style={{ backgroundImage: "url('/src/assets/background.png')" }}
+            style={{ backgroundImage: "url('/assets/background.png')" }}
           >
             <motion.div
               initial={{ opacity: 0 }}
@@ -61,7 +61,7 @@ export default function InvitationLanding() {
               <div className="flex flex-col items-center mt-6">
                 <div className="w-40 h-40 rounded-full p-1 bg-gradient-to-r from-yellow-900 via-yellow-600 to-yellow-800">
                   <img
-                    src="/src/assets/imagen.png"
+                    src="/assets/imagen.png"
                     alt="Isis y Hector"
                     className="w-full h-full object-cover rounded-full"
                   />
