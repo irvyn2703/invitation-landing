@@ -67,16 +67,26 @@ export default function InvitationLanding() {
 
             <motion.div className="relative space-y-4">
               <motion.p
+                layout
+                initial={{ opacity: 0, scale: 1.2, y: "50vh" }} // aparece en el centro y grande
+                animate={{ opacity: 1, scale: 1, y: 0 }} // luego se acomoda en su lugar
+                transition={{ duration: 2, ease: "easeIn" }}
+                className="text-2xl font-bold text-yellow-600 uppercase"
+              >
+                tenemos el honor de invitarlos a:
+              </motion.p>
+
+              <motion.p
                 variants={fadeIn}
-                custom={0.3}
-                className="text-2xl font-bold text-yellow-600"
+                custom={1.6}
+                className="text-3xl font-bold text-yellow-600"
               >
                 NUESTRA PRIMERA COMUNIÓN
               </motion.p>
 
               <motion.p
                 variants={fadeIn}
-                custom={0.6}
+                custom={1.9}
                 className="relative text-4xl font-bold bg-gradient-to-r from-yellow-900 via-yellow-600 to-yellow-800 bg-clip-text text-transparent"
               >
                 HÉCTOR & ISIS
@@ -84,7 +94,7 @@ export default function InvitationLanding() {
 
               <motion.div
                 variants={fadeIn}
-                custom={0.9}
+                custom={2.2}
                 className="flex flex-col items-center"
               >
                 <div className="w-40 h-40 rounded-full p-1 bg-gradient-to-r from-yellow-900 via-yellow-600 to-yellow-800">
@@ -99,7 +109,7 @@ export default function InvitationLanding() {
               {/* Info secciones */}
               <motion.div
                 variants={fadeIn}
-                custom={1.2}
+                custom={2.5}
                 className="mt-4 space-y-4 text-gray-700 text-center"
               >
                 <div>
