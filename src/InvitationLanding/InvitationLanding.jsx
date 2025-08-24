@@ -118,7 +118,9 @@ export default function InvitationLanding() {
                 </div>
                 <div>
                   <p className="font-bold">MADRINA</p>
-                  <p className="ml-2">Valentina Sánchez Peña</p>
+                  <p className="ml-2">
+                    Marcos Morales Fernández y Rosa Virginia Sánchez Pena
+                  </p>
                 </div>
                 <div>
                   <p className="font-bold">FECHA</p>
