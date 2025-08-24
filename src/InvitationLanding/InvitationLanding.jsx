@@ -117,7 +117,7 @@ export default function InvitationLanding() {
                   <p className="ml-2">Manuel Cárdenas e Isabel Cabrera</p>
                 </div>
                 <div>
-                  <p className="font-bold">MADRINA</p>
+                  <p className="font-bold">PADRINOS</p>
                   <p className="ml-2">
                     Marcos Morales Fernández y Rosa Virginia Sánchez Pena
                   </p>
