@@ -5,6 +5,10 @@ export default function InvitationLanding() {
   const [open, setOpen] = useState(false);
   const [showMap, setShowMap] = useState(false);
 
+  // Obtener parámetro v de la URL
+  const searchParams = new URLSearchParams(window.location.search);
+  const version = searchParams.get("v");
+
   // Variants para centralizar animaciones
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
@@ -126,10 +130,12 @@ export default function InvitationLanding() {
                   <p className="font-bold">FECHA</p>
                   <p className="ml-2">5 de Octubre 2025 a las 3:00 PM</p>
                 </div>
-                <div>
-                  <p className="font-bold">REGALO SUGERIDO</p>
-                  <p className="ml-2">Lluvia de sobres 💌</p>
-                </div>
+                {version !== "2" && (
+                  <div>
+                    <p className="font-bold">REGALO SUGERIDO</p>
+                    <p className="ml-2">Lluvia de sobres 💌</p>
+                  </div>
+                )}
 
                 {/* Botón ubicación */}
                 <div className="mt-4">
